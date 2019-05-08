@@ -13,15 +13,15 @@ CheckBox ch,ch2,ch3,ch4,ch5;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //initiate views
-        ch=findViewById(R.id.checkBox);
+        ch=findViewById(R.id.android);
         ch.setOnClickListener(this);
-        ch2=findViewById(R.id.checkBox2);
+        ch2=findViewById(R.id.java);
         ch2.setOnClickListener(this);
-        ch3=findViewById(R.id.checkBox3);
+        ch3=findViewById(R.id.php);
         ch3.setOnClickListener(this);
-        ch4=findViewById(R.id.checkBox4);
+        ch4=findViewById(R.id.python);
         ch4.setOnClickListener(this);
-        ch5=findViewById(R.id.checkBox5);
+        ch5=findViewById(R.id.unity);
         ch5.setOnClickListener(this);
     }
 
@@ -29,23 +29,23 @@ CheckBox ch,ch2,ch3,ch4,ch5;
     public void onClick(View v) {
         switch(v.getId())
         {
-            case R.id.checkBox:
+            case R.id.android:
                 if(ch.isChecked())
                 Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
                 break;
-            case R.id.checkBox2:
+            case R.id.java:
                 if(ch2.isChecked())
                 Toast.makeText(getApplicationContext(),"",Toast.LENGTH_LONG).show();
                 break;
-            case R.id.checkBox3:
+            case R.id.php:
                 if(ch3.isChecked())
                 Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
                 break;
-            case R.id.checkBox4:
+            case R.id.python:
                 if(ch4.isChecked())
                 Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
                 break;
-            case R.id.checkBox5:
+            case R.id.unity:
                 if(ch5.isChecked())
                 Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
                 break;

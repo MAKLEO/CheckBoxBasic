@@ -22,38 +22,38 @@
 
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/one"
-        android:text="@string/Android" />
+        android:text="@string/android" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/java"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorPrimaryDark"
-        android:text="Java" />
+        android:text="@string/java" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/php"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        android:text="PHP" />
+        android:text="@string/php" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/python"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/two"
-        android:text="Python" />
+        android:text="@string/python" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/unity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/one"
-        android:text="Unity 3D" />
+        android:text="@string/unity" />
 
 </LinearLayout>
