@@ -35,19 +35,19 @@ CheckBox ch,ch2,ch3,ch4,ch5;
                 break;
             case R.id.java:
                 if(ch2.isChecked())
-                Toast.makeText(getApplicationContext(),"",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"JAVA",Toast.LENGTH_LONG).show();
                 break;
             case R.id.php:
                 if(ch3.isChecked())
-                Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"P H P",Toast.LENGTH_LONG).show();
                 break;
             case R.id.python:
                 if(ch4.isChecked())
-                Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"PYTHON",Toast.LENGTH_LONG).show();
                 break;
             case R.id.unity:
                 if(ch5.isChecked())
-                Toast.makeText(getApplicationContext(),"ANDROID",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"UNITY 3D",Toast.LENGTH_LONG).show();
                 break;
         }
     }
